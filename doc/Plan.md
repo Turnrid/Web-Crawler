@@ -4,20 +4,21 @@
 
 **Deliver:**
 
-*   A detailed written description of the problem this program aims to solve.
-*   Describe what a *good* solution looks like.
-    *   List what you already know how to do.
-    *   Point out any challenges that you can foresee.
+* A webcrawler that can take an absolute URL and crawl to the default of specified depth by the user. Will catch any
+problems while crawling and not crash but continue to crawl the web.
+
+* Getting the program to a state where it is running should be easy. What I don't totally know how to do is use the
+library's needed for the assignment. Also remembering how to get the recursivness of the program working well.
+
 
 
 ## Phase 1: System Analysis *(10%)*
 
 **Deliver:**
 
-*   List all of the data that is used by the program, making note of where it comes from.
-*   Explain what form the output will take.
-*   Describe what algorithms and formulae will be used (but don't write them yet).
-
+* Data type should be lists of strings to hold data that can be manipulated and printed when needed.
+* Strings that will be printed to the console showing webpages gone to as well as printing any errors that were caught.
+* Algorithm to keep track of what links have been clicked and also the depth of recursion the program is at.
 
 ## Phase 2: Design *(30%)*
 
