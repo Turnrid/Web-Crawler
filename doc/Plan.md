@@ -16,7 +16,7 @@ library's needed for the assignment. Also remembering how to get the recursivnes
 
 **Deliver:**
 
-* Data type should be lists of strings to hold data that can be manipulated and printed when needed.
+* Data type should be a set of strings to hold data that can be manipulated and printed when needed.
 * Strings that will be printed to the console showing webpages gone to as well as printing any errors that were caught.
 * Algorithm to keep track of what links have been clicked and also the depth of recursion the program is at.
 
@@ -24,15 +24,21 @@ library's needed for the assignment. Also remembering how to get the recursivnes
 
 **Deliver:**
 
-*   Function signatures that include:
-    *   Descriptive names.
-    *   Parameter lists.
-    *   Documentation strings that explain the purpose, inputs and outputs.
-*   Pseudocode that captures how each function works.
-    *   Pseudocode != source code.  Do not paste your finished source code into this part of the plan.
-    *   Explain what happens in the face of good and bad input.
-    *   Write a few specific examples that occurred to you.
+* Main
+  * Check if enough arguments are given from the command line
+  * Check if the url given is absolute
+  * Determine if default of user specified depth of recursion is to be used
+  * Note the time when starting to crawl a url
+  * recursion depth should be a parameter
+  * Wrap crawl up in the try/catch to catch keyboard interrupt
+  * When finished print how long and the number of unique urls visited
 
+* Crawl(url, depth, set of urls)
+  * Check the current depth of recursion and return if we have reached the appropriate depth.
+  * Print the url with the correct indentation representing recursion depth
+  * Handle any exceptions gracefully to prevent from crashing
+  * Take the html and find the links in the page vist them and trim any fragments then add to a set of visited links.
+  * Then call crawl() on any unvisited links
 
 ## Phase 3: Implementation *(15%)*
 
