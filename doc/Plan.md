@@ -52,11 +52,9 @@ library's needed for the assignment. Also remembering how to get the recursivnes
 
 **Deliver:**
 
-*   A set of test cases that you have personally run on your computer.
-    *   Include a description of what happened for each test case.
-    *   For any bugs discovered, describe their cause and remedy.
-*   Write your test cases in plain language such that a non-coder could run them and replicate your experience.
-
+* Checked that duplicates are not getting "clicked"
+* Checked that exceptions are being handled gracefully
+* Wasn't visiting all the links found, fixed some logic so that is the case now
 
 ## Phase 5: Deployment *(5%)*
 
@@ -78,16 +76,9 @@ library's needed for the assignment. Also remembering how to get the recursivnes
 
 **Deliver:**
 
-*   Write brief and honest answers to these questions: *(Note: do this before you complete **Phase 5: Deployment**)*
-    *   What parts of your program are sloppily written and hard to understand?
-        *   Are there parts of your program which you aren't quite sure how/why they work?
-        *   If a bug is reported in a few months, how long would it take you to find the cause?
-    *   Will your documentation make sense to...
-        *   ...anybody besides yourself?
-        *   ...yourself in six month's time?
-    *   How easy will it be to add a new feature to this program in a year?
-    *   Will your program continue to work after upgrading...
-        *   ...your computer's hardware?
-        *   ...the operating system?
-        *   ...to the next version of Python?
-*   Fill out the Assignment Reflection on Canvas.
+* I feel like the main body of the program could be cleaned up a bit, as well as I could understand the 3rd partyl
+libraries better as well
+* Shouldn't take long to find any bugs since the program is pretty small and straight forward
+* Documentation is clear and easy to understand and should be easy to add new functionality to the program if needed to
+in the future
+* There should be no issues with the program when upgrading hardware, OS, or new version of Python.
