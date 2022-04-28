@@ -44,9 +44,8 @@ library's needed for the assignment. Also remembering how to get the recursivnes
 
 **Deliver:**
 
-*   (More or less) working code.
-*   Note any relevant and interesting events that happened while you wrote the code.
-    *   e.g. things you learned, things that didn't go according to plan
+* Need to understand Try/Except blocks better but got it working
+* Need more practice with recursion because I over think it but it is elagent
 
 
 ## Phase 4: Testing & Debugging *(30%)*
